@@ -20,7 +20,7 @@ console.log (computerChoice);
 /*If computerChoice is between 0 and 0.33, I need to make computerChoice equal to "rock".
 
 if (computerChoice 0 > 0.33) {
-	// Use console.log() to print "computerChoice"
+	// Use console.log() to prompt "computerChoice"
 console.log ("computerChoice");
 }*/
 
@@ -28,7 +28,7 @@ console.log ("computerChoice");
 /*If computerChoice is between 0.34 and 0.66, I need to make computerChoice equal to "paper".
 
 else (computerChoice 0.34 > 0.66) {
-	// Use console.log() to print "computerChoice"
+	// Use console.log() to prompt "computerChoice"
 console.log ("computerChoice");
 }*/
 
@@ -36,22 +36,12 @@ console.log ("computerChoice");
 /*If computerChoice is between 0.67 and 1, I need to make computerChoice equal to "scissors".
 
 else (computerChoice 0.67 > 1) {
-	// Use console.log() to print "computerChoice"
+	// Use console.log() to prompt "computerChoice"
 console.log ("computerChoice");
 }*/
 
 //But there are three outcomes! Using if / else only lets us have two outcomes. What now?! I need to use if / else if / else, Right?!//
-if (computerChoice >= 0.33) {
-	// Use console.log() to print "computerChoice"
-console.log ("computerChoice");
-}
-
-else if (computerChoice >= 0.34 <= 0.66) {
-	// Use console.log() to print "computerChoice"
-console.log ("computerChoice");
-}
-
-else if (computerChoice >= 0.67 <= 1) {
-	// Use console.log() to print "computerChoice"
+if (computerChoice >= 0.34 && computerChoice <= 0.66) {
+    // Use console.log() to prompt "computerChoice"
 console.log ("computerChoice");
 }
