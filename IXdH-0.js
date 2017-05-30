@@ -41,7 +41,17 @@ console.log ("computerChoice");
 }*/
 
 //But there are three outcomes! Using if / else only lets us have two outcomes. What now?! I need to use if / else if / else, Right?!//
-if (computerChoice >= 0.34 && computerChoice <= 0.66) {
+if (computerChoice >= 0 && computerChoice <= 0.33) {
     // Use console.log() to prompt "computerChoice"
-console.log ("computerChoice");
+    console.log ("Rock");
+}
+
+else if (computerChoice > 0.33 && computerChoice <= 0.67) {
+    // Use console.log() to prompt "computerChoice"
+    console.log ("Paper");
+}
+
+else if (computerChoice > 0.67 && computerChoice <= 1) {
+    // Use console.log() to prompt "computerChoice"
+    console.log ("Scissors");
 }
